@@ -11,23 +11,42 @@ body {
 header {
     height: 50px;
     background: aqua;
+    display: flex;
+    align-items: center;
 }
 
 .icon {
     height: 25px;
     width: 25px;
-    vertical-align: middle;
 }
 
 .left {
     float: left;
-    clear: right;
+}
+
+#header-content {
+    width: 100%;
 }
 
 #search-box {
-    width: 200px;
+    height: 25px;
+    background: white;
+    border: 1px solid #d3d3d3;
     display: inline-block;
 }
+
+#search-bar {
+    background: aquamarine;
+    height: 100%;
+    width: 150px;
+    display: inline-block;
+}
+
+#search-button {
+    height: 100%;
+    display: inline-block;
+}
+
 .right {
     float: right;
 }
