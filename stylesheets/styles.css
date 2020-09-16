@@ -49,18 +49,15 @@ img {
     display: inline-block;
 }
 
-.right {
-    float: right;
-}
-
 main {
     flex: 1 0 auto;
+    display: flex;
 }
 
 #content {
     background: blueviolet;
     height: 100%;
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
 }
 
