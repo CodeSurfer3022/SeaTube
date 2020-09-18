@@ -31,10 +31,6 @@ header > * {
     margin: 10px;
 }
 
-.fas {
-
-}
-
 /* Styling for search container and search bar*/
 #search-container {
     height: 25px;
@@ -65,16 +61,33 @@ main > * {
 
 /* styling for section*/
 section {
-    flex: 1 1 70%;
+    flex: 1 1 65%;
 }
 
 section > * {
     border: 5px solid blue;
 }
 
+.iframe-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 aside {
-    background: lightcyan;
-    flex: 1 1 30%;
+    flex: 1 1 35%;
 }
 
 .subscribe {
