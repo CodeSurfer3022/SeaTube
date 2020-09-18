@@ -11,6 +11,7 @@ html {
 body {
     height: 100%;
     width: 100%;
+    font-family: Roboto, Arial, "sans-serif";
     border: 5px solid green;
     overflow: auto;
 }
@@ -66,6 +67,7 @@ section {
 
 section > * {
     border: 5px solid blue;
+    margin: 10px 0;
 }
 
 .iframe-container {
@@ -86,12 +88,70 @@ iframe {
     border: none;
 }
 
-aside {
-    flex: 1 1 35%;
+/* styling for main video content */
+#video-info > * {
+    padding: 10px 0;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-between;
+}
+
+#channel-info {
+    display: flex;
+}
+
+#channel-info > * {
+    margin: 10px;
+}
+
+.fab {
+    font-size: 4em;
 }
 
 .subscribe {
-    height: 50px;
-    width: 100px;
+    padding: 10px;
     background: red;
+    align-self: flex-start;
+}
+
+#comments-header {
+    padding: 10px;
+}
+
+.comments > *{
+    border: 5px solid pink;
+    display: flex;
+    padding: 10px;
+}
+
+.comment > * {
+    padding: 10px;
+}
+
+.fa-user {
+    padding: 10px;
+    flex: 0;
+}
+
+.comment-description {
+    flex: 1;
+}
+
+.comment-description > * {
+    padding-bottom: 20px;
+}
+
+.comment-interact {
+    display: flex;
+    align-items: center;
+}
+
+.comment-interact > * {
+    padding: 10px;
+}
+
+aside {
+    flex: 1 1 35%;
 }
