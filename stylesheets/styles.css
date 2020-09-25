@@ -12,12 +12,12 @@ body {
     height: 100%;
     width: 100%;
     font-family: Roboto, Arial, "sans-serif";
-    border: 5px solid green;
+    /*border: 5px solid green;*/
     overflow: auto;
 }
 
 body > * {
-    border: 5px solid red;
+    /*border: 5px solid red;*/
 }
 
 header {
@@ -25,6 +25,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: #eeeeee;
 }
 
 /* style direct descendants of header*/
@@ -37,26 +38,22 @@ header > * {
     height: 25px;
     flex: 0 1 400px;
     border: 1px solid #d3d3d3;
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 #search-bar {
-    height: 100%;
-    display: inline-block;
-}
-
-#search-button {
-    height: 100%;
-    display: inline-block;
+    flex: 1 1 200px;
 }
 
 /* styling for main area*/
 main {
     display: flex;
+    padding: 10px;
 }
 
 main > * {
-    border: 5px solid yellow;
+    /*border: 5px solid yellow;*/
     margin: 10px;
 }
 
@@ -66,7 +63,7 @@ section {
 }
 
 section > * {
-    border: 5px solid blue;
+    /*border: 5px solid blue;*/
     margin: 10px 0;
 }
 
@@ -121,7 +118,7 @@ iframe {
 }
 
 .comments > *{
-    border: 5px solid pink;
+    /*border: 5px solid pink;*/
     display: flex;
     padding: 10px;
 }
@@ -154,4 +151,24 @@ iframe {
 
 aside {
     flex: 1 1 35%;
+}
+
+aside > * {
+    margin: 10px;
+}
+aside img {
+    height: 100px;
+    width: 180px;
+}
+
+.next-videos {
+    display: flex;
+}
+
+.next-videos > * {
+    padding: 10px;
+}
+
+.next-videos div > * {
+    padding-bottom: 10px;
 }
